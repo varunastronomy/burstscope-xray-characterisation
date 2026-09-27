@@ -1,4 +1,14 @@
-# Thermonuclear X-ray Burst Characterisation
+<p align="center">
+  <img src="assets/burstscope-banner.png" alt="BurstScope neutron-star burst and light-curve banner" width="100%">
+</p>
+
+# BurstScope
+
+### Interactive thermonuclear X-ray burst characterisation
+
+[![Quality checks](https://github.com/varunastronomy/burstscope-xray-characterisation/actions/workflows/quality-checks.yml/badge.svg)](https://github.com/varunastronomy/burstscope-xray-characterisation/actions/workflows/quality-checks.yml)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![FITS](https://img.shields.io/badge/Data-FITS-6D28D9)](https://fits.gsfc.nasa.gov/)
 
 An interactive Python workflow for identifying timing landmarks in an X-ray burst light curve and exporting the selected burst interval as a Good Time Interval (GTI).
 
@@ -15,6 +25,14 @@ This repository is built around a research script developed and tested by **M. V
 - Calculates the rise time and post-maximum e-folding time.
 - Searches for an earlier candidate onset that may precede the principal rise.
 - Saves numerical results, an annotated plot, a text GTI, and a FITS GTI.
+
+## Workflow preview
+
+<p align="center">
+  <img src="assets/burstscope-workflow.gif" alt="Synthetic animation showing BurstScope timing landmarks" width="850">
+</p>
+
+The animation is a **synthetic demonstration** created only to explain the workflow. It is not an observational result and is not used to validate the scientific method.
 
 ## Scientific method at a glance
 
@@ -35,8 +53,8 @@ The background mean and standard deviation are estimated from the first 100 bins
 ## Quick start
 
 ```bash
-git clone https://github.com/varunastronomy/thermonuclear-xray-burst-characterisation.git
-cd thermonuclear-xray-burst-characterisation
+git clone https://github.com/varunastronomy/burstscope-xray-characterisation.git
+cd burstscope-xray-characterisation
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
@@ -71,6 +89,7 @@ Generated products are ignored by Git so that observational results are not acci
 
 ```text
 .
+├── assets/                         # Banner and synthetic workflow preview
 ├── Final_burst_characteristics.py  # Scientific analysis program
 ├── docs/
 │   ├── SCIENTIFIC_METHOD.md        # Definitions, assumptions, and limitations
