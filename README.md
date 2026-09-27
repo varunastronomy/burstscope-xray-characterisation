@@ -16,6 +16,20 @@ This repository is built around a research script developed and tested by **M. V
 
 > **Scientific scope:** This program measures burst timing landmarks from a user-selected light-curve interval. It does not classify the physical origin of a transient, replace mission-specific calibration, or perform time-resolved spectroscopy.
 
+## **Copyright, permission, and mandatory citation**
+
+> **COPYRIGHT © 2026 M. VARUN, CHRIST (DEEMED TO BE UNIVERSITY), BENGALURU (BANGALORE), INDIA. ALL RIGHTS RESERVED.**
+>
+> **THIS REPOSITORY IS PUBLICLY VISIBLE FOR SCIENTIFIC AND PROFESSIONAL REVIEW, BUT NO PERMISSION IS GRANTED TO USE, COPY, MODIFY, REDISTRIBUTE, REPUBLISH, OR INCORPORATE THIS SOFTWARE INTO ANOTHER PROJECT WITHOUT PRIOR WRITTEN PERMISSION FROM THE AUTHOR.**
+>
+> **WHEN WRITTEN PERMISSION IS GRANTED, ANY SCIENTIFIC, ACADEMIC, EDUCATIONAL, OR COMMERCIAL USE MUST PROVIDE CLEAR ATTRIBUTION AND CITE M. VARUN AND THIS REPOSITORY.**
+
+Required citation for approved use:
+
+> M. Varun (2026), *BurstScope: Interactive Thermonuclear X-ray Burst Characterisation*, CHRIST (Deemed to be University), Bengaluru, India. GitHub repository: https://github.com/varunastronomy/burstscope-xray-characterisation
+
+Public availability and GitHub forking do not constitute permission for reuse beyond the rights provided by GitHub's platform terms and applicable law.
+
 ## What the program does
 
 - Reads a FITS light curve containing `TIME`, `RATE`, and `ERROR` columns.
@@ -111,10 +125,11 @@ This project provides evidence of practical experience with Python, FITS data, i
 
 ## Citation and reuse
 
-Citation metadata are provided in [`CITATION.cff`](CITATION.cff). No software license has yet been assigned. Copyright remains with the author; the absence of a license means reuse rights have not been granted.
+Citation metadata are provided in [`CITATION.cff`](CITATION.cff). No software license has been assigned. Copyright remains with the author, reuse rights have not been granted, and citation does not replace the requirement to obtain prior written permission.
 
 ## Author
 
-**M. Varun**  
-X-ray astronomy researcher and scientific Python developer  
+**M. Varun**<br>
+X-ray astronomy researcher and scientific Python developer<br>
+CHRIST (Deemed to be University), Bengaluru (Bangalore), India<br>
 [GitHub: varunastronomy](https://github.com/varunastronomy)

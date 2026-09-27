@@ -5,6 +5,7 @@ type: software
 authors:
   - family-names: "Varun"
     given-names: "M."
+    affiliation: "CHRIST (Deemed to be University), Bengaluru, India"
 repository-code: "https://github.com/varunastronomy/burstscope-xray-characterisation"
 abstract: "An interactive Python workflow for measuring timing landmarks and generating Good Time Intervals from X-ray burst light curves."
 keywords:
