@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If this software contributes to your work, please cite it using this metadata."
+title: "Thermonuclear X-ray Burst Characterisation"
+type: software
+authors:
+  - family-names: "Varun"
+    given-names: "M."
+repository-code: "https://github.com/varunastronomy/thermonuclear-xray-burst-characterisation"
+abstract: "An interactive Python workflow for measuring timing landmarks and generating Good Time Intervals from X-ray burst light curves."
+keywords:
+  - X-ray astronomy
+  - thermonuclear X-ray bursts
+  - FITS
+  - light curves
+  - scientific Python
+version: 1.0.0
+date-released: 2026-09-27
